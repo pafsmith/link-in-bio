@@ -1,9 +1,10 @@
+
 "use client"
 import React, { Suspense } from 'react';
 import { createAuthClient } from "better-auth/react"
 
 const { useSession } = createAuthClient()
-export const Navbar = () => {
+export const Navbar = () => { 
   const {
     data: session,
     isPending, 
